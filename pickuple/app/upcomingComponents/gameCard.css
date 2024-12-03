@@ -1,0 +1,76 @@
+.game-card {
+    display: flex;
+    align-items: center;
+    padding: 32px 64px;
+    background-color: #2a2d3a;
+    border-radius: 24px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 2000px;
+    margin: 32px auto;
+    color: #ffffff;
+    height: 300px;
+}
+
+.game-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: #3b3e4d;
+    border-radius: 16px;
+    margin-right: 32px;
+}
+
+.game-card-icon {
+    width: 80px;
+    height: 80px;
+    color: #a1a1a1;
+}
+
+.game-card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.game-card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #e0e0e0;
+}
+
+.game-card-details {
+    font-size: 1.35rem;
+    /* Slightly larger for better emphasis */
+    color: #b0b0b0;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.game-card-court-type {
+    font-size: 1.35rem;
+    /* Matched font size to details */
+    color: #c0c0c0;
+    /* Slightly lighter for differentiation */
+    margin-bottom: 8px;
+    font-style: italic;
+    /* Stylized to stand out */
+}
+
+.game-card-booking {
+    font-size: 1.25rem;
+    color: #a0a0a0;
+    font-style: italic;
+}
+
+.delete-game-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(30, 30, 30);
+    padding: 16px;
+}

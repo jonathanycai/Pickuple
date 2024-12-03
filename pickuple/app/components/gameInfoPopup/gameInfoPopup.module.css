@@ -1,0 +1,37 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  min-height: 200px;
+  background-color: rgb(30, 30, 30);
+}
+
+.userinfomodal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  min-height: 200px;
+  background-color: rgb(30, 30, 30);
+}
+
+.modalScroll {
+  /* Styling the scrollbar */
+}
+
+.modalScroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.modalScroll::-webkit-scrollbar-thumb {
+  width: 2px;
+  background-color: #5a5a5a;
+  border-radius: 8px;
+}
+
+.modalScroll::-webkit-scrollbar-track {
+  background-color: rgb(30, 30, 30);
+}

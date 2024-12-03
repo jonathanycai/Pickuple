@@ -1,0 +1,29 @@
+.filtersContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  gap: 16px;
+}
+
+.collapse {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+  cursor: pointer;
+  margin: 1rem auto;
+  align-items: center;
+  font-weight: 700;
+  max-width: 400px;
+}
+
+.collapse:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.clauseContainer {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}

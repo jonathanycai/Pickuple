@@ -1,0 +1,23 @@
+{
+  "name": "pickuple_ball_backend",
+  "version": "1.0.0",
+  "description": "Backend for Pickuple Ball",
+  "main": "server.js",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.693.0",
+    "@aws-sdk/s3-request-presigner": "^3.693.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "oracledb": "^6.0.0",
+    "sharp": "^0.33.5"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
